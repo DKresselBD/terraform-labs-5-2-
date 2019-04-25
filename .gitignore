@@ -1,4 +1,14 @@
-# provider.tf
-client_secret.auto.tfvars
+# terra temp dir
 .terraform/
+
+# tf state files
+.terraform
+.terraform.*
+terraform.tfstate
+terraform.tfstate.*
+
+# tf secrets
+client_secret.auto.tfvars
+
+# commit
 commit.bat
